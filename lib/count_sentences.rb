@@ -4,14 +4,10 @@ class String
 
   def sentence?
     self.end_with?(".")
-      true 
-    else 
-      false 
-    end
   end
 
   def question?
-
+    self.end_with?("?")
   end
 
   def exclamation?
